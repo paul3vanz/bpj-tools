@@ -1,0 +1,23 @@
+{
+    "name": "BPJ Helper",
+    "version": "1.5",
+    "description": "Assists with various tasks",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://myathleticscommon.englandathletics.org/portal/Secretaries/Add_Member",
+                "https://myathleticsportal.englandathletics.org/Organisation/AddMember/-1",
+                "https://www.entrycentral.com/organiser/*"
+            ],
+            "js": ["entry-central-transfer.js", "membership-add.js"]
+        }
+    ],
+    "icons": {
+        "16": "images/bpj-icon-16.png",
+        "32": "images/bpj-icon-32.png",
+        "48": "images/bpj-icon-48.png",
+        "128": "images/bpj-icon-128.png"
+    },
+    "manifest_version": 2
+}
