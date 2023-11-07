@@ -1,6 +1,6 @@
 {
     "name": "BPJ Helper",
-    "version": "1.5",
+    "version": "1.6",
     "description": "Assists with various tasks",
     "permissions": ["activeTab"],
     "content_scripts": [
@@ -19,5 +19,5 @@
         "48": "images/bpj-icon-48.png",
         "128": "images/bpj-icon-128.png"
     },
-    "manifest_version": 2
+    "manifest_version": 3
 }
